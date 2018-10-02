@@ -6,7 +6,9 @@ namespace FavoriteFood
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String answer = "";
+            Console.WriteLine("What's your favorite food?");
+            answer = Console.ReadLine();
         }
     }
 }
