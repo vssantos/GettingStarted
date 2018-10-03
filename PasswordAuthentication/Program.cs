@@ -25,9 +25,13 @@ namespace PasswordAuthentication
                 else
                 {
                     attempts++;
+                    if (attempts == 3)
+                    {
+                        Console.WriteLine("Too many incorrect login attempts! Try again later!");
+                    }
                 }
             }
-            Console.WriteLine("Too many incorrect login attempts! Try again later!");
         }
     }
 }
+
