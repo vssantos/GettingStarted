@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{3347825D-4D76-4A7A-9078-38E18334FEE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{3347825D-4D76-4A7A-9078-38E18334FEE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavoriteFood", "FavoriteFood\FavoriteFood.csproj", "{FB2746C7-FA5F-4AE4-A20D-977518C5351B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FavoriteFood", "FavoriteFood\FavoriteFood.csproj", "{FB2746C7-FA5F-4AE4-A20D-977518C5351B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordAuthentication", "PasswordAuthentication\PasswordAuthentication.csproj", "{369C39FF-C9DB-48B1-91CF-587D7792D2E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordAuthentication", "PasswordAuthentication\PasswordAuthentication.csproj", "{369C39FF-C9DB-48B1-91CF-587D7792D2E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLargest", "FindLargest\FindLargest.csproj", "{2296724B-04CA-491D-9A7A-2B1DD28776F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindLargest", "FindLargest\FindLargest.csproj", "{2296724B-04CA-491D-9A7A-2B1DD28776F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeMatch", "GradeMatch\GradeMatch.csproj", "{C31F2088-453B-48A7-BC62-DE825E41A000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeMatch", "GradeMatch\GradeMatch.csproj", "{C31F2088-453B-48A7-BC62-DE825E41A000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{3CC864D6-C88A-4475-98BD-99C4AF3584A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C31F2088-453B-48A7-BC62-DE825E41A000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C31F2088-453B-48A7-BC62-DE825E41A000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C31F2088-453B-48A7-BC62-DE825E41A000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
