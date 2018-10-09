@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindLargest", "FindLargest\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeMatch", "GradeMatch\GradeMatch.csproj", "{C31F2088-453B-48A7-BC62-DE825E41A000}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{3CC864D6-C88A-4475-98BD-99C4AF3584A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{3CC864D6-C88A-4475-98BD-99C4AF3584A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{278AC361-840E-47A9-BD02-0ECC921DF11B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC864D6-C88A-4475-98BD-99C4AF3584A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278AC361-840E-47A9-BD02-0ECC921DF11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278AC361-840E-47A9-BD02-0ECC921DF11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278AC361-840E-47A9-BD02-0ECC921DF11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278AC361-840E-47A9-BD02-0ECC921DF11B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

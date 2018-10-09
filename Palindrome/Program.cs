@@ -12,12 +12,19 @@ namespace Palindrome
             Console.WriteLine("Enter a phrase:");
             phrase = Console.ReadLine();
 
-            for (int i = 0; i < phrase.Length - 1; i++)
+            foreach (char c in phrase)
             {
-                reverse = phrase.Substring(i, i + 1) + reverse;
+                reverse = c + reverse;
             }
 
-            Console.WriteLine(reverse);
+            if (reverse == phrase)
+            {
+                Console.WriteLine("\"" + phrase + "\"" + " is a palindrome.");
+            }
+            else
+            {
+                Console.WriteLine("\"" + phrase + "\"" + " is not a palindrome.");
+            }
         }
     }
 }
